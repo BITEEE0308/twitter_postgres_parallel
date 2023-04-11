@@ -17,4 +17,4 @@ time python3 -u load_tweets.py --db=postgresql://postgres:pass@localhost:51298/ 
 echo '================================================================================'
 echo 'load pg_normalized_batch'
 echo '================================================================================'
-time python3 -u load_tweets_batch.py --db=postgresql://postgres:pass@localhost:12235/ --inputs $files
+#time python3 -u load_tweets_batch.py --db=postgresql://postgres:pass@localhost:12235/ --inputs $files
