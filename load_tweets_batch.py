@@ -407,7 +407,7 @@ if __name__ == '__main__':
 
     # create database connection
     engine = sqlalchemy.create_engine(args.db, connect_args={
-        'application_name': 'load_tweets_batch.py --inputs '+' '.join(args.inputs),
+        'application_name': 'load_tweets.py --inputs '+' '.join(args.inputs),
         })
     connection = engine.connect()
 
