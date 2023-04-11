@@ -357,7 +357,7 @@ def _insert_tweets(connection,input_tweets):
                 'type':medium['type']
                 })
 
-    connection.commit()
+#    connection.commit()
     ######################################## 
     # STEP 2: perform the actual SQL inserts
     ######################################## 
